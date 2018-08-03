@@ -1,0 +1,89 @@
+{
+  "args_data": "gANjcmxsYWIubWlzYy5pbnN0cnVtZW50ClN0dWJNZXRob2RDYWxsCnEAKYFxAX1xAihYCAAAAF9fa3dhcmdzcQN9cQRYBgAAAF9fYXJnc3EFKGNybGxhYi5taXNjLmluc3RydW1lbnQKU3R1Yk9iamVjdApxBimBcQd9cQgoWAsAAABwcm94eV9jbGFzc3EJY3NhbmRib3gucm9ja3kudGYuYWxnb3MudHJwbwpUUlBPCnEKWAQAAABhcmdzcQspWAYAAABrd2FyZ3NxDH1xDShYBQAAAG5faXRycQ5NECdYBgAAAHBvbGljeXEPaAYpgXEQfXERKGgJY3NhbmRib3gucm9ja3kudGYucG9saWNpZXMuZ2F1c3NpYW5fbWxwX3BvbGljeQpHYXVzc2lhbk1MUFBvbGljeQpxEmgLKWgMfXETKFgEAAAAbmFtZXEUaA9YCAAAAGVudl9zcGVjcRVjcmxsYWIubWlzYy5pbnN0cnVtZW50ClN0dWJBdHRyCnEWKYFxF31xGChYCgAAAF9hdHRyX25hbWVxGVgEAAAAc3BlY3EaWAQAAABfb2JqcRtoBimBcRx9cR0oaAljc2FuZGJveC5yb2NreS50Zi5lbnZzLmJhc2UKVGZFbnYKcR5oCyloDH1xH1gLAAAAd3JhcHBlZF9lbnZxIGgGKYFxIX1xIihoCWNybGxhYi5lbnZzLm5vcm1hbGl6ZWRfZW52Ck5vcm1hbGl6ZWRFbnYKcSNoCyloDH1xJFgDAAAAZW52cSVoBimBcSZ9cScoaAljcmxsYWIuZW52cy5neW1fZW52Ckd5bUVudgpxKGgLKWgMfXEpWAgAAABlbnZfbmFtZXEqWAsAAABQZW5kdWx1bS12MHErc3Vic3Vic3VidWJYDAAAAGhpZGRlbl9zaXplc3EsSyBLIIZxLXV1YlgKAAAAYmF0Y2hfc2l6ZXEuTaAPaCVoHFgIAAAAYmFzZWxpbmVxL2gGKYFxMH1xMShoCWNybGxhYi5iYXNlbGluZXMubGluZWFyX2ZlYXR1cmVfYmFzZWxpbmUKTGluZWFyRmVhdHVyZUJhc2VsaW5lCnEyaAspaAx9cTNoFWgWKYFxNH1xNShoGWgaaBtoHHVic3ViWAQAAABwbG90cTaIWA8AAABtYXhfcGF0aF9sZW5ndGhxN2gWKYFxOH1xOShoGVgHAAAAaG9yaXpvbnE6aBtoHHViWAkAAABzdGVwX3NpemVxO0c/hHrhR64Ue1gIAAAAZGlzY291bnRxPEc/764UeuFHrlgTAAAAZm9yY2VfYmF0Y2hfc2FtcGxlcnE9iHV1YlgFAAAAdHJhaW5xPil9cT90cUB1Yi4=",
+  "exp_name": "experiment_2018_06_23_22_55_59_0001",
+  "json_args": {
+    "algo": {
+      "_name": "sandbox.rocky.tf.algos.trpo.TRPO",
+      "batch_size": 4000,
+      "discount": 0.99,
+      "force_batch_sampler": true,
+      "max_path_length": {
+        "attr": "horizon",
+        "obj": {
+          "_name": "sandbox.rocky.tf.envs.base.TfEnv",
+          "wrapped_env": {
+            "_name": "rllab.envs.normalized_env.NormalizedEnv",
+            "env": {
+              "_name": "rllab.envs.gym_env.GymEnv",
+              "env_name": "Pendulum-v0"
+            }
+          }
+        }
+      },
+      "n_itr": 10000,
+      "plot": true,
+      "step_size": 0.01
+    },
+    "baseline": {
+      "_name": "rllab.baselines.linear_feature_baseline.LinearFeatureBaseline",
+      "env_spec": {
+        "attr": "spec",
+        "obj": {
+          "_name": "sandbox.rocky.tf.envs.base.TfEnv",
+          "wrapped_env": {
+            "_name": "rllab.envs.normalized_env.NormalizedEnv",
+            "env": {
+              "_name": "rllab.envs.gym_env.GymEnv",
+              "env_name": "Pendulum-v0"
+            }
+          }
+        }
+      }
+    },
+    "env": {
+      "_name": "sandbox.rocky.tf.envs.base.TfEnv",
+      "wrapped_env": {
+        "_name": "rllab.envs.normalized_env.NormalizedEnv",
+        "env": {
+          "_name": "rllab.envs.gym_env.GymEnv",
+          "env_name": "Pendulum-v0"
+        }
+      }
+    },
+    "policy": {
+      "_name": "sandbox.rocky.tf.policies.gaussian_mlp_policy.GaussianMLPPolicy",
+      "env_spec": {
+        "attr": "spec",
+        "obj": {
+          "_name": "sandbox.rocky.tf.envs.base.TfEnv",
+          "wrapped_env": {
+            "_name": "rllab.envs.normalized_env.NormalizedEnv",
+            "env": {
+              "_name": "rllab.envs.gym_env.GymEnv",
+              "env_name": "Pendulum-v0"
+            }
+          }
+        }
+      },
+      "hidden_sizes": [
+        32,
+        32
+      ],
+      "name": "policy"
+    }
+  },
+  "log_dir": "/home/chizhang/Documents/learning_to_adapt_rllab/data/local/experiment/experiment_2018_06_23_22_55_59_0001",
+  "log_tabular_only": false,
+  "n_parallel": 1,
+  "params_log_file": "params.json",
+  "plot": true,
+  "resume_from": null,
+  "seed": 1,
+  "snapshot_gap": 1,
+  "snapshot_mode": "last",
+  "tabular_log_file": "progress.csv",
+  "text_log_file": "debug.log",
+  "use_cloudpickle": false,
+  "variant_data": null,
+  "variant_log_file": "variant.json"
+}

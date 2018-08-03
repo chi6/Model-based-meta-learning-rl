@@ -1,0 +1,65 @@
+{
+  "args_data": "gANjcmxsYWIubWlzYy5pbnN0cnVtZW50ClN0dWJNZXRob2RDYWxsCnEAKYFxAX1xAihYBgAAAF9fYXJnc3EDKGNybGxhYi5taXNjLmluc3RydW1lbnQKU3R1Yk9iamVjdApxBCmBcQV9cQYoWAsAAABwcm94eV9jbGFzc3EHY3JsbGFiLmFsZ29zLnRycG8KVFJQTwpxCFgGAAAAa3dhcmdzcQl9cQooWAkAAABvcHRpbWl6ZXJxC2gEKYFxDH1xDShoB2NybGxhYi5vcHRpbWl6ZXJzLmNvbmp1Z2F0ZV9ncmFkaWVudF9vcHRpbWl6ZXIKQ29uanVnYXRlR3JhZGllbnRPcHRpbWl6ZXIKcQ5oCX1xD1gMAAAAaHZwX2FwcHJvYWNocRBoBCmBcRF9cRIoaAdjcmxsYWIub3B0aW1pemVycy5jb25qdWdhdGVfZ3JhZGllbnRfb3B0aW1pemVyCkZpbml0ZURpZmZlcmVuY2VIdnAKcRNoCX1xFFgIAAAAYmFzZV9lcHNxFUc+5Pi1iONo8XNYBAAAAGFyZ3NxFil1YnNoFil1YlgFAAAAbl9pdHJxF0sKWAgAAABiYXNlbGluZXEYaAQpgXEZfXEaKGgHY3JsbGFiLmJhc2VsaW5lcy5saW5lYXJfZmVhdHVyZV9iYXNlbGluZQpMaW5lYXJGZWF0dXJlQmFzZWxpbmUKcRtoCX1xHFgIAAAAZW52X3NwZWNxHWNybGxhYi5taXNjLmluc3RydW1lbnQKU3R1YkF0dHIKcR4pgXEffXEgKFgEAAAAX29ianEhaAQpgXEifXEjKGgHY3JsbGFiLmVudnMubm9ybWFsaXplZF9lbnYKTm9ybWFsaXplZEVudgpxJGgJfXElWAMAAABlbnZxJmgEKYFxJ31xKChoB2NybGxhYi5lbnZzLmJveDJkLmNhcnRwb2xlX2VudgpDYXJ0cG9sZUVudgpxKWgJfXEqaBYpdWJzaBYpdWJYCgAAAF9hdHRyX25hbWVxK1gEAAAAc3BlY3EsdWJzaBYpdWJYCQAAAHN0ZXBfc2l6ZXEtRz+EeuFHrhR7WAgAAABkaXNjb3VudHEuRz/vrhR64UeuWAoAAABiYXRjaF9zaXplcS9NoA9YDwAAAG1heF9wYXRoX2xlbmd0aHEwS2RYBgAAAHBvbGljeXExaAQpgXEyfXEzKGgHY3JsbGFiLnBvbGljaWVzLmdhdXNzaWFuX2dydV9wb2xpY3kKR2F1c3NpYW5HUlVQb2xpY3kKcTRoCX1xNWgdaB4pgXE2fXE3KGghaCJoK2gsdWJzaBYpdWJoJmgidWgWKXViWAUAAAB0cmFpbnE4KX1xOXRxOlgIAAAAX19rd2FyZ3NxO31xPHViLg==",
+  "exp_name": "experiment_2018_06_01_01_00_23_0001",
+  "json_args": {
+    "algo": {
+      "_name": "rllab.algos.trpo.TRPO",
+      "batch_size": 4000,
+      "discount": 0.99,
+      "max_path_length": 100,
+      "n_itr": 10,
+      "optimizer": {
+        "_name": "rllab.optimizers.conjugate_gradient_optimizer.ConjugateGradientOptimizer",
+        "hvp_approach": {
+          "_name": "rllab.optimizers.conjugate_gradient_optimizer.FiniteDifferenceHvp",
+          "base_eps": 1e-05
+        }
+      },
+      "step_size": 0.01
+    },
+    "baseline": {
+      "_name": "rllab.baselines.linear_feature_baseline.LinearFeatureBaseline",
+      "env_spec": {
+        "attr": "spec",
+        "obj": {
+          "_name": "rllab.envs.normalized_env.NormalizedEnv",
+          "env": {
+            "_name": "rllab.envs.box2d.cartpole_env.CartpoleEnv"
+          }
+        }
+      }
+    },
+    "env": {
+      "_name": "rllab.envs.normalized_env.NormalizedEnv",
+      "env": {
+        "_name": "rllab.envs.box2d.cartpole_env.CartpoleEnv"
+      }
+    },
+    "policy": {
+      "_name": "rllab.policies.gaussian_gru_policy.GaussianGRUPolicy",
+      "env_spec": {
+        "attr": "spec",
+        "obj": {
+          "_name": "rllab.envs.normalized_env.NormalizedEnv",
+          "env": {
+            "_name": "rllab.envs.box2d.cartpole_env.CartpoleEnv"
+          }
+        }
+      }
+    }
+  },
+  "log_dir": "/home/chizhang/Documents/maml_rl-master/data/local/experiment/experiment_2018_06_01_01_00_23_0001",
+  "log_tabular_only": false,
+  "n_parallel": 1,
+  "params_log_file": "params.json",
+  "plot": false,
+  "resume_from": null,
+  "seed": 1,
+  "snapshot_gap": 1,
+  "snapshot_mode": "all",
+  "tabular_log_file": "progress.csv",
+  "text_log_file": "debug.log",
+  "use_cloudpickle": false,
+  "variant_data": null,
+  "variant_log_file": "variant.json"
+}

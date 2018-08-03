@@ -1,0 +1,532 @@
+2018-06-12 16:42:05.005882 CST | [maml1_fbs20_mbs40_flr_0.1_mlr0.01] Populating workers...
+2018-06-12 16:42:15.001465 CST | [maml1_fbs20_mbs40_flr_0.1_mlr0.01] Populated
+2018-06-12 16:42:15.033082 CST | [maml1_fbs20_mbs40_flr_0.1_mlr0.01] itr #0 | Sampling set of tasks/goals for this meta-batch...
+2018-06-12 16:42:15.033405 CST | [maml1_fbs20_mbs40_flr_0.1_mlr0.01] itr #0 | ** Step 0 **
+2018-06-12 16:42:15.033507 CST | [maml1_fbs20_mbs40_flr_0.1_mlr0.01] itr #0 | Obtaining samples...
+2018-06-12 16:42:33.700087 CST | [maml1_fbs20_mbs40_flr_0.1_mlr0.01] itr #0 | Obtaining future samples...
+2018-06-12 16:42:52.836630 CST | [maml1_fbs20_mbs40_flr_0.1_mlr0.01] itr #0 | Processing samples...
+2018-06-12 16:42:54.525403 CST | [maml1_fbs20_mbs40_flr_0.1_mlr0.01] itr #0 | fitting baseline...
+2018-06-12 16:42:54.682747 CST | [maml1_fbs20_mbs40_flr_0.1_mlr0.01] itr #0 | fitted
+2018-06-12 16:42:55.002923 CST | [maml1_fbs20_mbs40_flr_0.1_mlr0.01] itr #0 | Computing policy updates...
+2018-06-12 16:43:04.738595 CST | [maml1_fbs20_mbs40_flr_0.1_mlr0.01] itr #0 | Optimizing policy...
+2018-06-12 16:43:04.739303 CST | [maml1_fbs20_mbs40_flr_0.1_mlr0.01] itr #0 | Computing loss before
+2018-06-12 16:43:05.434840 CST | [maml1_fbs20_mbs40_flr_0.1_mlr0.01] itr #0 | Optimizing
+2018-06-12 16:43:05.436309 CST | [maml1_fbs20_mbs40_flr_0.1_mlr0.01] itr #0 | Start CG optimization: #parameters: 172820, #inputs: 2700, #subsample_inputs: 2700
+2018-06-12 16:43:05.436392 CST | [maml1_fbs20_mbs40_flr_0.1_mlr0.01] itr #0 | computing loss before
+2018-06-12 16:43:05.574683 CST | [maml1_fbs20_mbs40_flr_0.1_mlr0.01] itr #0 | performing update
+2018-06-12 16:43:05.574856 CST | [maml1_fbs20_mbs40_flr_0.1_mlr0.01] itr #0 | computing gradient
+2018-06-12 16:43:07.558529 CST | [maml1_fbs20_mbs40_flr_0.1_mlr0.01] itr #0 | gradient computed
+2018-06-12 16:43:07.558786 CST | [maml1_fbs20_mbs40_flr_0.1_mlr0.01] itr #0 | computing descent direction
+2018-06-12 16:43:07.924628 CST | [maml1_fbs20_mbs40_flr_0.1_mlr0.01] itr #0 | descent direction computed
+2018-06-12 16:44:29.202656 CST | [maml1_fbs20_mbs40_flr_0.1_mlr0.01] Populating workers...
+2018-06-12 16:44:39.661472 CST | [maml1_fbs20_mbs40_flr_0.1_mlr0.01] Populated
+2018-06-12 16:44:39.692847 CST | [maml1_fbs20_mbs40_flr_0.1_mlr0.01] itr #0 | Sampling set of tasks/goals for this meta-batch...
+2018-06-12 16:44:39.693161 CST | [maml1_fbs20_mbs40_flr_0.1_mlr0.01] itr #0 | ** Step 0 **
+2018-06-12 16:44:39.693257 CST | [maml1_fbs20_mbs40_flr_0.1_mlr0.01] itr #0 | Obtaining samples...
+2018-06-12 16:44:58.545711 CST | [maml1_fbs20_mbs40_flr_0.1_mlr0.01] itr #0 | Obtaining future samples...
+2018-06-12 16:45:17.923858 CST | [maml1_fbs20_mbs40_flr_0.1_mlr0.01] itr #0 | Processing samples...
+2018-06-12 16:45:19.226073 CST | [maml1_fbs20_mbs40_flr_0.1_mlr0.01] itr #0 | fitting baseline...
+2018-06-12 16:45:19.438258 CST | [maml1_fbs20_mbs40_flr_0.1_mlr0.01] itr #0 | fitted
+2018-06-12 16:45:19.717378 CST | [maml1_fbs20_mbs40_flr_0.1_mlr0.01] itr #0 | Computing policy updates...
+2018-06-12 16:45:29.452006 CST | [maml1_fbs20_mbs40_flr_0.1_mlr0.01] itr #0 | Optimizing policy...
+2018-06-12 16:45:29.452681 CST | [maml1_fbs20_mbs40_flr_0.1_mlr0.01] itr #0 | Computing loss before
+2018-06-12 16:45:30.151398 CST | [maml1_fbs20_mbs40_flr_0.1_mlr0.01] itr #0 | Optimizing
+2018-06-12 16:45:30.152890 CST | [maml1_fbs20_mbs40_flr_0.1_mlr0.01] itr #0 | Start CG optimization: #parameters: 172820, #inputs: 2700, #subsample_inputs: 2700
+2018-06-12 16:45:30.152984 CST | [maml1_fbs20_mbs40_flr_0.1_mlr0.01] itr #0 | computing loss before
+2018-06-12 16:45:30.297575 CST | [maml1_fbs20_mbs40_flr_0.1_mlr0.01] itr #0 | performing update
+2018-06-12 16:45:30.297757 CST | [maml1_fbs20_mbs40_flr_0.1_mlr0.01] itr #0 | computing gradient
+2018-06-12 16:45:32.190496 CST | [maml1_fbs20_mbs40_flr_0.1_mlr0.01] itr #0 | gradient computed
+2018-06-12 16:45:32.190674 CST | [maml1_fbs20_mbs40_flr_0.1_mlr0.01] itr #0 | computing descent direction
+2018-06-12 16:45:32.478413 CST | [maml1_fbs20_mbs40_flr_0.1_mlr0.01] itr #0 | descent direction computed
+2018-06-12 16:45:35.004692 CST | [maml1_fbs20_mbs40_flr_0.1_mlr0.01] itr #0 | Line search condition violated. Rejecting the step!
+2018-06-12 16:45:35.004912 CST | [maml1_fbs20_mbs40_flr_0.1_mlr0.01] itr #0 | Violated because loss not improving
+2018-06-12 16:45:35.007211 CST | [maml1_fbs20_mbs40_flr_0.1_mlr0.01] itr #0 | backtrack iters: 14
+2018-06-12 16:45:35.007323 CST | [maml1_fbs20_mbs40_flr_0.1_mlr0.01] itr #0 | computing loss after
+2018-06-12 16:45:35.007396 CST | [maml1_fbs20_mbs40_flr_0.1_mlr0.01] itr #0 | optimization finished
+2018-06-12 16:45:35.007472 CST | [maml1_fbs20_mbs40_flr_0.1_mlr0.01] itr #0 | Computing loss after
+2018-06-12 16:45:35.157141 CST | [maml1_fbs20_mbs40_flr_0.1_mlr0.01] itr #0 | Computing KL after
+2018-06-12 16:45:35.263910 CST | [maml1_fbs20_mbs40_flr_0.1_mlr0.01] itr #0 | Saving snapshot...
+2018-06-12 16:45:35.318464 CST | [maml1_fbs20_mbs40_flr_0.1_mlr0.01] itr #0 | Saved
+2018-06-12 16:45:35.320213 CST | ----------------------  -----------
+2018-06-12 16:45:35.320322 CST | 0TotalExecTime            18.712
+2018-06-12 16:45:35.320409 CST | 0TotalExecTime            19.3725
+2018-06-12 16:45:35.320483 CST | 0AverageReturn          -303.351
+2018-06-12 16:45:35.320555 CST | 0ExplainedVariance         0.841783
+2018-06-12 16:45:35.320626 CST | 0NumTrajs               1069
+2018-06-12 16:45:35.320696 CST | 0StdReturn                57.6499
+2018-06-12 16:45:35.320766 CST | 0MaxReturn              -205.335
+2018-06-12 16:45:35.320836 CST | 0MinReturn              -437.892
+2018-06-12 16:45:35.320906 CST | ComputeUpdatedDistTime     9.73047
+2018-06-12 16:45:35.320976 CST | MeanKL                     0
+2018-06-12 16:45:35.321047 CST | LossBefore                 1.83283
+2018-06-12 16:45:35.321116 CST | LossAfter                  1.83283
+2018-06-12 16:45:35.321186 CST | dLoss                      0
+2018-06-12 16:45:35.321257 CST | Time                      55.6258
+2018-06-12 16:45:35.321326 CST | ItrTime                   55.6258
+2018-06-12 16:45:35.321396 CST | ----------------------  -----------
+2018-06-12 16:45:35.321959 CST | [maml1_fbs20_mbs40_flr_0.1_mlr0.01] itr #0 | Saving visualization of paths
+2018-06-12 16:45:35.910889 CST | [maml1_fbs20_mbs40_flr_0.1_mlr0.01] itr #1 | Sampling set of tasks/goals for this meta-batch...
+2018-06-12 16:45:35.916139 CST | [maml1_fbs20_mbs40_flr_0.1_mlr0.01] itr #1 | ** Step 0 **
+2018-06-12 16:45:35.916300 CST | [maml1_fbs20_mbs40_flr_0.1_mlr0.01] itr #1 | Obtaining samples...
+2018-06-12 16:45:56.709997 CST | [maml1_fbs20_mbs40_flr_0.1_mlr0.01] itr #1 | Obtaining future samples...
+2018-06-13 10:25:23.608701 CST | [maml1_fbs20_mbs40_flr_0.1_mlr0.01] Populating workers...
+2018-06-13 10:25:33.852417 CST | [maml1_fbs20_mbs40_flr_0.1_mlr0.01] Populated
+2018-06-13 10:25:33.889719 CST | [maml1_fbs20_mbs40_flr_0.1_mlr0.01] itr #0 | Sampling set of tasks/goals for this meta-batch...
+2018-06-13 10:25:33.890006 CST | [maml1_fbs20_mbs40_flr_0.1_mlr0.01] itr #0 | ** Step 0 **
+2018-06-13 10:25:33.890092 CST | [maml1_fbs20_mbs40_flr_0.1_mlr0.01] itr #0 | Obtaining samples...
+2018-06-13 10:25:53.164395 CST | [maml1_fbs20_mbs40_flr_0.1_mlr0.01] itr #0 | Obtaining future samples...
+2018-06-13 10:26:13.354194 CST | [maml1_fbs20_mbs40_flr_0.1_mlr0.01] itr #0 | Processing samples...
+2018-06-13 10:26:14.868723 CST | [maml1_fbs20_mbs40_flr_0.1_mlr0.01] itr #0 | fitting baseline...
+2018-06-13 10:26:15.017536 CST | [maml1_fbs20_mbs40_flr_0.1_mlr0.01] itr #0 | fitted
+2018-06-13 10:26:15.319315 CST | [maml1_fbs20_mbs40_flr_0.1_mlr0.01] itr #0 | Computing policy updates...
+2018-06-13 10:26:24.556753 CST | [maml1_fbs20_mbs40_flr_0.1_mlr0.01] itr #0 | Optimizing policy...
+2018-06-13 10:26:24.557696 CST | [maml1_fbs20_mbs40_flr_0.1_mlr0.01] itr #0 | Computing loss before
+2018-06-13 10:26:25.299213 CST | [maml1_fbs20_mbs40_flr_0.1_mlr0.01] itr #0 | Optimizing
+2018-06-13 10:26:25.306635 CST | [maml1_fbs20_mbs40_flr_0.1_mlr0.01] itr #0 | Start CG optimization: #parameters: 172820, #inputs: 2700, #subsample_inputs: 2700
+2018-06-13 10:26:25.306776 CST | [maml1_fbs20_mbs40_flr_0.1_mlr0.01] itr #0 | computing loss before
+2018-06-13 10:26:25.453207 CST | [maml1_fbs20_mbs40_flr_0.1_mlr0.01] itr #0 | performing update
+2018-06-13 10:26:25.453880 CST | [maml1_fbs20_mbs40_flr_0.1_mlr0.01] itr #0 | computing gradient
+2018-06-13 10:26:28.238140 CST | [maml1_fbs20_mbs40_flr_0.1_mlr0.01] itr #0 | gradient computed
+2018-06-13 10:26:28.239617 CST | [maml1_fbs20_mbs40_flr_0.1_mlr0.01] itr #0 | computing descent direction
+2018-06-13 10:26:28.588479 CST | [maml1_fbs20_mbs40_flr_0.1_mlr0.01] itr #0 | descent direction computed
+2018-06-13 13:45:09.430233 CST | [maml1_fbs20_mbs40_flr_0.1_mlr0.01] Populating workers...
+2018-06-13 13:45:19.843735 CST | [maml1_fbs20_mbs40_flr_0.1_mlr0.01] Populated
+2018-06-13 13:45:19.878784 CST | [maml1_fbs20_mbs40_flr_0.1_mlr0.01] itr #0 | Sampling set of tasks/goals for this meta-batch...
+2018-06-13 13:45:19.879131 CST | [maml1_fbs20_mbs40_flr_0.1_mlr0.01] itr #0 | ** Step 0 **
+2018-06-13 13:45:19.879240 CST | [maml1_fbs20_mbs40_flr_0.1_mlr0.01] itr #0 | Obtaining samples...
+2018-06-13 13:45:39.066657 CST | [maml1_fbs20_mbs40_flr_0.1_mlr0.01] itr #0 | Obtaining future samples...
+2018-06-13 13:45:58.099414 CST | [maml1_fbs20_mbs40_flr_0.1_mlr0.01] itr #0 | Processing samples...
+2018-06-13 13:45:59.452902 CST | [maml1_fbs20_mbs40_flr_0.1_mlr0.01] itr #0 | fitting baseline...
+2018-06-13 13:45:59.592072 CST | [maml1_fbs20_mbs40_flr_0.1_mlr0.01] itr #0 | fitted
+2018-06-13 13:45:59.894604 CST | [maml1_fbs20_mbs40_flr_0.1_mlr0.01] itr #0 | Computing policy updates...
+2018-06-13 13:46:09.530408 CST | [maml1_fbs20_mbs40_flr_0.1_mlr0.01] itr #0 | Optimizing policy...
+2018-06-13 13:46:09.531093 CST | [maml1_fbs20_mbs40_flr_0.1_mlr0.01] itr #0 | Computing loss before
+2018-06-13 13:46:10.231743 CST | [maml1_fbs20_mbs40_flr_0.1_mlr0.01] itr #0 | Optimizing
+2018-06-13 13:46:10.233084 CST | [maml1_fbs20_mbs40_flr_0.1_mlr0.01] itr #0 | Start CG optimization: #parameters: 172820, #inputs: 2700, #subsample_inputs: 2700
+2018-06-13 13:46:10.233180 CST | [maml1_fbs20_mbs40_flr_0.1_mlr0.01] itr #0 | computing loss before
+2018-06-13 13:46:10.379383 CST | [maml1_fbs20_mbs40_flr_0.1_mlr0.01] itr #0 | performing update
+2018-06-13 13:46:10.379545 CST | [maml1_fbs20_mbs40_flr_0.1_mlr0.01] itr #0 | computing gradient
+2018-06-13 13:46:12.198020 CST | [maml1_fbs20_mbs40_flr_0.1_mlr0.01] itr #0 | gradient computed
+2018-06-13 13:46:12.198170 CST | [maml1_fbs20_mbs40_flr_0.1_mlr0.01] itr #0 | computing descent direction
+2018-06-13 13:46:12.459968 CST | [maml1_fbs20_mbs40_flr_0.1_mlr0.01] itr #0 | descent direction computed
+2018-06-13 13:46:14.995459 CST | [maml1_fbs20_mbs40_flr_0.1_mlr0.01] itr #0 | Line search condition violated. Rejecting the step!
+2018-06-13 13:46:14.995661 CST | [maml1_fbs20_mbs40_flr_0.1_mlr0.01] itr #0 | Violated because loss not improving
+2018-06-13 13:46:14.997870 CST | [maml1_fbs20_mbs40_flr_0.1_mlr0.01] itr #0 | backtrack iters: 14
+2018-06-13 13:46:14.997972 CST | [maml1_fbs20_mbs40_flr_0.1_mlr0.01] itr #0 | computing loss after
+2018-06-13 13:46:14.998039 CST | [maml1_fbs20_mbs40_flr_0.1_mlr0.01] itr #0 | optimization finished
+2018-06-13 13:46:14.998108 CST | [maml1_fbs20_mbs40_flr_0.1_mlr0.01] itr #0 | Computing loss after
+2018-06-13 13:46:15.145009 CST | [maml1_fbs20_mbs40_flr_0.1_mlr0.01] itr #0 | Computing KL after
+2018-06-13 13:46:15.256080 CST | [maml1_fbs20_mbs40_flr_0.1_mlr0.01] itr #0 | Saving snapshot...
+2018-06-13 13:46:15.320701 CST | [maml1_fbs20_mbs40_flr_0.1_mlr0.01] itr #0 | Saved
+2018-06-13 13:46:15.321419 CST | ----------------------  -----------
+2018-06-13 13:46:15.321507 CST | 0TotalExecTime            19.0435
+2018-06-13 13:46:15.321568 CST | 0TotalExecTime            19.0266
+2018-06-13 13:46:15.321625 CST | 0AverageReturn          -303.333
+2018-06-13 13:46:15.321678 CST | 0ExplainedVariance         0.841512
+2018-06-13 13:46:15.321733 CST | 0NumTrajs               1074
+2018-06-13 13:46:15.321798 CST | 0StdReturn                57.8086
+2018-06-13 13:46:15.321849 CST | 0MaxReturn              -204.432
+2018-06-13 13:46:15.321899 CST | 0MinReturn              -437.892
+2018-06-13 13:46:15.321950 CST | ComputeUpdatedDistTime     9.63541
+2018-06-13 13:46:15.322005 CST | MeanKL                     0
+2018-06-13 13:46:15.322057 CST | LossBefore                 1.83271
+2018-06-13 13:46:15.322107 CST | LossAfter                  1.83271
+2018-06-13 13:46:15.322157 CST | dLoss                      0
+2018-06-13 13:46:15.322208 CST | Time                      55.4421
+2018-06-13 13:46:15.322257 CST | ItrTime                   55.4421
+2018-06-13 13:46:15.322307 CST | ----------------------  -----------
+2018-06-13 13:46:15.322458 CST | [maml1_fbs20_mbs40_flr_0.1_mlr0.01] itr #0 | Saving visualization of paths
+2018-06-13 13:46:15.847952 CST | [maml1_fbs20_mbs40_flr_0.1_mlr0.01] itr #1 | Sampling set of tasks/goals for this meta-batch...
+2018-06-13 13:46:15.848723 CST | [maml1_fbs20_mbs40_flr_0.1_mlr0.01] itr #1 | ** Step 0 **
+2018-06-13 13:46:15.848888 CST | [maml1_fbs20_mbs40_flr_0.1_mlr0.01] itr #1 | Obtaining samples...
+2018-06-13 13:46:36.303595 CST | [maml1_fbs20_mbs40_flr_0.1_mlr0.01] itr #1 | Obtaining future samples...
+2018-06-13 13:46:57.679743 CST | [maml1_fbs20_mbs40_flr_0.1_mlr0.01] itr #1 | Processing samples...
+2018-06-13 13:46:59.815615 CST | [maml1_fbs20_mbs40_flr_0.1_mlr0.01] itr #1 | fitting baseline...
+2018-06-13 13:47:00.002342 CST | [maml1_fbs20_mbs40_flr_0.1_mlr0.01] itr #1 | fitted
+2018-06-13 13:47:00.281906 CST | [maml1_fbs20_mbs40_flr_0.1_mlr0.01] itr #1 | Computing policy updates...
+2018-06-13 13:47:01.308897 CST | [maml1_fbs20_mbs40_flr_0.1_mlr0.01] itr #1 | Optimizing policy...
+2018-06-13 13:47:01.309648 CST | [maml1_fbs20_mbs40_flr_0.1_mlr0.01] itr #1 | Computing loss before
+2018-06-13 13:47:01.689562 CST | [maml1_fbs20_mbs40_flr_0.1_mlr0.01] itr #1 | Optimizing
+2018-06-13 13:47:01.690881 CST | [maml1_fbs20_mbs40_flr_0.1_mlr0.01] itr #1 | Start CG optimization: #parameters: 172820, #inputs: 2700, #subsample_inputs: 2700
+2018-06-13 13:47:01.690984 CST | [maml1_fbs20_mbs40_flr_0.1_mlr0.01] itr #1 | computing loss before
+2018-06-13 13:47:01.834757 CST | [maml1_fbs20_mbs40_flr_0.1_mlr0.01] itr #1 | performing update
+2018-06-13 13:47:01.834920 CST | [maml1_fbs20_mbs40_flr_0.1_mlr0.01] itr #1 | computing gradient
+2018-06-13 13:47:02.101659 CST | [maml1_fbs20_mbs40_flr_0.1_mlr0.01] itr #1 | gradient computed
+2018-06-13 13:47:02.101831 CST | [maml1_fbs20_mbs40_flr_0.1_mlr0.01] itr #1 | computing descent direction
+2018-06-13 13:47:02.319607 CST | [maml1_fbs20_mbs40_flr_0.1_mlr0.01] itr #1 | descent direction computed
+2018-06-13 13:47:04.505961 CST | [maml1_fbs20_mbs40_flr_0.1_mlr0.01] itr #1 | Line search condition violated. Rejecting the step!
+2018-06-13 13:47:04.506134 CST | [maml1_fbs20_mbs40_flr_0.1_mlr0.01] itr #1 | Violated because loss not improving
+2018-06-13 13:47:04.508370 CST | [maml1_fbs20_mbs40_flr_0.1_mlr0.01] itr #1 | backtrack iters: 14
+2018-06-13 13:47:04.508477 CST | [maml1_fbs20_mbs40_flr_0.1_mlr0.01] itr #1 | computing loss after
+2018-06-13 13:47:04.508546 CST | [maml1_fbs20_mbs40_flr_0.1_mlr0.01] itr #1 | optimization finished
+2018-06-13 13:47:04.508615 CST | [maml1_fbs20_mbs40_flr_0.1_mlr0.01] itr #1 | Computing loss after
+2018-06-13 13:47:04.656958 CST | [maml1_fbs20_mbs40_flr_0.1_mlr0.01] itr #1 | Computing KL after
+2018-06-13 13:47:04.706097 CST | [maml1_fbs20_mbs40_flr_0.1_mlr0.01] itr #1 | Saving snapshot...
+2018-06-13 13:47:04.706302 CST | [maml1_fbs20_mbs40_flr_0.1_mlr0.01] itr #1 | Saved
+2018-06-13 13:47:04.707028 CST | ----------------------  -----------
+2018-06-13 13:47:04.707125 CST | 0TotalExecTime            20.4478
+2018-06-13 13:47:04.707217 CST | 0TotalExecTime            21.3693
+2018-06-13 13:47:04.707289 CST | 0AverageReturn          -325.22
+2018-06-13 13:47:04.707359 CST | 0ExplainedVariance         0.854352
+2018-06-13 13:47:04.707428 CST | 0NumTrajs               1073
+2018-06-13 13:47:04.707497 CST | 0StdReturn                59.2041
+2018-06-13 13:47:04.707565 CST | 0MaxReturn              -207.166
+2018-06-13 13:47:04.707632 CST | 0MinReturn              -445.167
+2018-06-13 13:47:04.707700 CST | ComputeUpdatedDistTime     1.02631
+2018-06-13 13:47:04.707768 CST | MeanKL                     0
+2018-06-13 13:47:04.707835 CST | LossBefore                 1.83444
+2018-06-13 13:47:04.707912 CST | LossAfter                  1.83444
+2018-06-13 13:47:04.707981 CST | dLoss                      0
+2018-06-13 13:47:04.708049 CST | Time                     104.828
+2018-06-13 13:47:04.708117 CST | ItrTime                   48.8585
+2018-06-13 13:47:04.708184 CST | ----------------------  -----------
+2018-06-13 13:47:04.711399 CST | [maml1_fbs20_mbs40_flr_0.1_mlr0.01] itr #2 | Sampling set of tasks/goals for this meta-batch...
+2018-06-13 13:47:04.712104 CST | [maml1_fbs20_mbs40_flr_0.1_mlr0.01] itr #2 | ** Step 0 **
+2018-06-13 13:47:04.712258 CST | [maml1_fbs20_mbs40_flr_0.1_mlr0.01] itr #2 | Obtaining samples...
+2018-06-13 13:47:26.830539 CST | [maml1_fbs20_mbs40_flr_0.1_mlr0.01] itr #2 | Obtaining future samples...
+2018-06-13 13:47:49.218550 CST | [maml1_fbs20_mbs40_flr_0.1_mlr0.01] itr #2 | Processing samples...
+2018-06-13 13:47:50.878568 CST | [maml1_fbs20_mbs40_flr_0.1_mlr0.01] itr #2 | fitting baseline...
+2018-06-13 13:47:51.045508 CST | [maml1_fbs20_mbs40_flr_0.1_mlr0.01] itr #2 | fitted
+2018-06-13 13:47:51.332614 CST | [maml1_fbs20_mbs40_flr_0.1_mlr0.01] itr #2 | Computing policy updates...
+2018-06-13 13:47:52.536920 CST | [maml1_fbs20_mbs40_flr_0.1_mlr0.01] itr #2 | Optimizing policy...
+2018-06-13 13:47:52.537693 CST | [maml1_fbs20_mbs40_flr_0.1_mlr0.01] itr #2 | Computing loss before
+2018-06-13 13:47:52.982632 CST | [maml1_fbs20_mbs40_flr_0.1_mlr0.01] itr #2 | Optimizing
+2018-06-13 13:47:52.984294 CST | [maml1_fbs20_mbs40_flr_0.1_mlr0.01] itr #2 | Start CG optimization: #parameters: 172820, #inputs: 2700, #subsample_inputs: 2700
+2018-06-13 13:47:52.984398 CST | [maml1_fbs20_mbs40_flr_0.1_mlr0.01] itr #2 | computing loss before
+2018-06-13 13:47:53.132488 CST | [maml1_fbs20_mbs40_flr_0.1_mlr0.01] itr #2 | performing update
+2018-06-13 13:47:53.132661 CST | [maml1_fbs20_mbs40_flr_0.1_mlr0.01] itr #2 | computing gradient
+2018-06-13 13:47:53.409965 CST | [maml1_fbs20_mbs40_flr_0.1_mlr0.01] itr #2 | gradient computed
+2018-06-13 13:47:53.410135 CST | [maml1_fbs20_mbs40_flr_0.1_mlr0.01] itr #2 | computing descent direction
+2018-06-13 13:47:53.633131 CST | [maml1_fbs20_mbs40_flr_0.1_mlr0.01] itr #2 | descent direction computed
+2018-06-13 13:47:55.852955 CST | [maml1_fbs20_mbs40_flr_0.1_mlr0.01] itr #2 | Line search condition violated. Rejecting the step!
+2018-06-13 13:47:55.853172 CST | [maml1_fbs20_mbs40_flr_0.1_mlr0.01] itr #2 | Violated because loss not improving
+2018-06-13 13:47:55.855420 CST | [maml1_fbs20_mbs40_flr_0.1_mlr0.01] itr #2 | backtrack iters: 14
+2018-06-13 13:47:55.855545 CST | [maml1_fbs20_mbs40_flr_0.1_mlr0.01] itr #2 | computing loss after
+2018-06-13 13:47:55.855622 CST | [maml1_fbs20_mbs40_flr_0.1_mlr0.01] itr #2 | optimization finished
+2018-06-13 13:47:55.855703 CST | [maml1_fbs20_mbs40_flr_0.1_mlr0.01] itr #2 | Computing loss after
+2018-06-13 13:47:56.002816 CST | [maml1_fbs20_mbs40_flr_0.1_mlr0.01] itr #2 | Computing KL after
+2018-06-13 13:47:56.054966 CST | [maml1_fbs20_mbs40_flr_0.1_mlr0.01] itr #2 | Saving snapshot...
+2018-06-13 13:47:56.055190 CST | [maml1_fbs20_mbs40_flr_0.1_mlr0.01] itr #2 | Saved
+2018-06-13 13:47:56.057670 CST | ----------------------  -----------
+2018-06-13 13:47:56.057775 CST | 0TotalExecTime            22.1108
+2018-06-13 13:47:56.057862 CST | 0TotalExecTime            22.3795
+2018-06-13 13:47:56.057933 CST | 0AverageReturn          -299.469
+2018-06-13 13:47:56.058001 CST | 0ExplainedVariance         0.804241
+2018-06-13 13:47:56.058067 CST | 0NumTrajs               1076
+2018-06-13 13:47:56.058134 CST | 0StdReturn                65.126
+2018-06-13 13:47:56.058200 CST | 0MaxReturn              -205.478
+2018-06-13 13:47:56.058265 CST | 0MinReturn              -431.32
+2018-06-13 13:47:56.058331 CST | ComputeUpdatedDistTime     1.20395
+2018-06-13 13:47:56.058396 CST | MeanKL                     0
+2018-06-13 13:47:56.058465 CST | LossBefore                 1.8397
+2018-06-13 13:47:56.058534 CST | LossAfter                  1.8397
+2018-06-13 13:47:56.058659 CST | dLoss                      0
+2018-06-13 13:47:56.058841 CST | Time                     156.177
+2018-06-13 13:47:56.058933 CST | ItrTime                   51.3444
+2018-06-13 13:47:56.059042 CST | ----------------------  -----------
+2018-06-13 13:47:56.059712 CST | [maml1_fbs20_mbs40_flr_0.1_mlr0.01] itr #2 | Saving visualization of paths
+2018-06-13 13:47:56.677031 CST | [maml1_fbs20_mbs40_flr_0.1_mlr0.01] itr #3 | Sampling set of tasks/goals for this meta-batch...
+2018-06-13 13:47:56.679505 CST | [maml1_fbs20_mbs40_flr_0.1_mlr0.01] itr #3 | ** Step 0 **
+2018-06-13 13:47:56.679709 CST | [maml1_fbs20_mbs40_flr_0.1_mlr0.01] itr #3 | Obtaining samples...
+2018-06-13 13:48:19.493149 CST | [maml1_fbs20_mbs40_flr_0.1_mlr0.01] itr #3 | Obtaining future samples...
+2018-06-13 13:48:42.425672 CST | [maml1_fbs20_mbs40_flr_0.1_mlr0.01] itr #3 | Processing samples...
+2018-06-13 13:48:44.089371 CST | [maml1_fbs20_mbs40_flr_0.1_mlr0.01] itr #3 | fitting baseline...
+2018-06-13 13:48:44.265673 CST | [maml1_fbs20_mbs40_flr_0.1_mlr0.01] itr #3 | fitted
+2018-06-13 13:48:44.586644 CST | [maml1_fbs20_mbs40_flr_0.1_mlr0.01] itr #3 | Computing policy updates...
+2018-06-13 13:48:45.588962 CST | [maml1_fbs20_mbs40_flr_0.1_mlr0.01] itr #3 | Optimizing policy...
+2018-06-13 13:48:45.589715 CST | [maml1_fbs20_mbs40_flr_0.1_mlr0.01] itr #3 | Computing loss before
+2018-06-13 13:48:46.030136 CST | [maml1_fbs20_mbs40_flr_0.1_mlr0.01] itr #3 | Optimizing
+2018-06-13 13:48:46.031706 CST | [maml1_fbs20_mbs40_flr_0.1_mlr0.01] itr #3 | Start CG optimization: #parameters: 172820, #inputs: 2700, #subsample_inputs: 2700
+2018-06-13 13:48:46.031827 CST | [maml1_fbs20_mbs40_flr_0.1_mlr0.01] itr #3 | computing loss before
+2018-06-13 13:48:46.176432 CST | [maml1_fbs20_mbs40_flr_0.1_mlr0.01] itr #3 | performing update
+2018-06-13 13:48:46.176610 CST | [maml1_fbs20_mbs40_flr_0.1_mlr0.01] itr #3 | computing gradient
+2018-06-13 13:48:46.449034 CST | [maml1_fbs20_mbs40_flr_0.1_mlr0.01] itr #3 | gradient computed
+2018-06-13 13:48:46.449205 CST | [maml1_fbs20_mbs40_flr_0.1_mlr0.01] itr #3 | computing descent direction
+2018-06-13 13:48:46.666231 CST | [maml1_fbs20_mbs40_flr_0.1_mlr0.01] itr #3 | descent direction computed
+2018-06-13 13:48:48.863165 CST | [maml1_fbs20_mbs40_flr_0.1_mlr0.01] itr #3 | Line search condition violated. Rejecting the step!
+2018-06-13 13:48:48.863352 CST | [maml1_fbs20_mbs40_flr_0.1_mlr0.01] itr #3 | Violated because loss not improving
+2018-06-13 13:48:48.865679 CST | [maml1_fbs20_mbs40_flr_0.1_mlr0.01] itr #3 | backtrack iters: 14
+2018-06-13 13:48:48.865785 CST | [maml1_fbs20_mbs40_flr_0.1_mlr0.01] itr #3 | computing loss after
+2018-06-13 13:48:48.865859 CST | [maml1_fbs20_mbs40_flr_0.1_mlr0.01] itr #3 | optimization finished
+2018-06-13 13:48:48.865935 CST | [maml1_fbs20_mbs40_flr_0.1_mlr0.01] itr #3 | Computing loss after
+2018-06-13 13:48:49.015718 CST | [maml1_fbs20_mbs40_flr_0.1_mlr0.01] itr #3 | Computing KL after
+2018-06-13 13:48:49.066535 CST | [maml1_fbs20_mbs40_flr_0.1_mlr0.01] itr #3 | Saving snapshot...
+2018-06-13 13:48:49.066766 CST | [maml1_fbs20_mbs40_flr_0.1_mlr0.01] itr #3 | Saved
+2018-06-13 13:48:49.067530 CST | ----------------------  ----------
+2018-06-13 13:48:49.067634 CST | 0TotalExecTime            22.8064
+2018-06-13 13:48:49.067836 CST | 0TotalExecTime            22.9239
+2018-06-13 13:48:49.067979 CST | 0AverageReturn          -304.178
+2018-06-13 13:48:49.068081 CST | 0ExplainedVariance         0.8503
+2018-06-13 13:48:49.068159 CST | 0NumTrajs               1079
+2018-06-13 13:48:49.068234 CST | 0StdReturn                55.9482
+2018-06-13 13:48:49.068307 CST | 0MaxReturn              -204.878
+2018-06-13 13:48:49.068379 CST | 0MinReturn              -434.984
+2018-06-13 13:48:49.068451 CST | ComputeUpdatedDistTime     1.00208
+2018-06-13 13:48:49.068523 CST | MeanKL                     0
+2018-06-13 13:48:49.068594 CST | LossBefore                 1.83155
+2018-06-13 13:48:49.068664 CST | LossAfter                  1.83155
+2018-06-13 13:48:49.068735 CST | dLoss                      0
+2018-06-13 13:48:49.068805 CST | Time                     209.188
+2018-06-13 13:48:49.068875 CST | ItrTime                   52.3899
+2018-06-13 13:48:49.068955 CST | ----------------------  ----------
+2018-06-13 13:48:49.077442 CST | [maml1_fbs20_mbs40_flr_0.1_mlr0.01] itr #4 | Sampling set of tasks/goals for this meta-batch...
+2018-06-13 13:48:49.079153 CST | [maml1_fbs20_mbs40_flr_0.1_mlr0.01] itr #4 | ** Step 0 **
+2018-06-13 13:48:49.079599 CST | [maml1_fbs20_mbs40_flr_0.1_mlr0.01] itr #4 | Obtaining samples...
+2018-06-13 13:49:12.427395 CST | [maml1_fbs20_mbs40_flr_0.1_mlr0.01] itr #4 | Obtaining future samples...
+2018-06-13 13:49:35.973924 CST | [maml1_fbs20_mbs40_flr_0.1_mlr0.01] itr #4 | Processing samples...
+2018-06-13 13:49:37.648280 CST | [maml1_fbs20_mbs40_flr_0.1_mlr0.01] itr #4 | fitting baseline...
+2018-06-13 13:49:37.813314 CST | [maml1_fbs20_mbs40_flr_0.1_mlr0.01] itr #4 | fitted
+2018-06-13 13:49:38.087693 CST | [maml1_fbs20_mbs40_flr_0.1_mlr0.01] itr #4 | Computing policy updates...
+2018-06-13 13:49:39.116020 CST | [maml1_fbs20_mbs40_flr_0.1_mlr0.01] itr #4 | Optimizing policy...
+2018-06-13 13:49:39.116771 CST | [maml1_fbs20_mbs40_flr_0.1_mlr0.01] itr #4 | Computing loss before
+2018-06-13 13:49:39.573083 CST | [maml1_fbs20_mbs40_flr_0.1_mlr0.01] itr #4 | Optimizing
+2018-06-13 13:49:39.574616 CST | [maml1_fbs20_mbs40_flr_0.1_mlr0.01] itr #4 | Start CG optimization: #parameters: 172820, #inputs: 2700, #subsample_inputs: 2700
+2018-06-13 13:49:39.574730 CST | [maml1_fbs20_mbs40_flr_0.1_mlr0.01] itr #4 | computing loss before
+2018-06-13 13:49:39.717963 CST | [maml1_fbs20_mbs40_flr_0.1_mlr0.01] itr #4 | performing update
+2018-06-13 13:49:39.718134 CST | [maml1_fbs20_mbs40_flr_0.1_mlr0.01] itr #4 | computing gradient
+2018-06-13 13:49:39.987117 CST | [maml1_fbs20_mbs40_flr_0.1_mlr0.01] itr #4 | gradient computed
+2018-06-13 13:49:39.987370 CST | [maml1_fbs20_mbs40_flr_0.1_mlr0.01] itr #4 | computing descent direction
+2018-06-13 13:49:40.187803 CST | [maml1_fbs20_mbs40_flr_0.1_mlr0.01] itr #4 | descent direction computed
+2018-06-13 13:49:42.358081 CST | [maml1_fbs20_mbs40_flr_0.1_mlr0.01] itr #4 | Line search condition violated. Rejecting the step!
+2018-06-13 13:49:42.358269 CST | [maml1_fbs20_mbs40_flr_0.1_mlr0.01] itr #4 | Violated because loss not improving
+2018-06-13 13:49:42.360811 CST | [maml1_fbs20_mbs40_flr_0.1_mlr0.01] itr #4 | backtrack iters: 14
+2018-06-13 13:49:42.360929 CST | [maml1_fbs20_mbs40_flr_0.1_mlr0.01] itr #4 | computing loss after
+2018-06-13 13:49:42.361005 CST | [maml1_fbs20_mbs40_flr_0.1_mlr0.01] itr #4 | optimization finished
+2018-06-13 13:49:42.361082 CST | [maml1_fbs20_mbs40_flr_0.1_mlr0.01] itr #4 | Computing loss after
+2018-06-13 13:49:42.505904 CST | [maml1_fbs20_mbs40_flr_0.1_mlr0.01] itr #4 | Computing KL after
+2018-06-13 13:49:42.556232 CST | [maml1_fbs20_mbs40_flr_0.1_mlr0.01] itr #4 | Saving snapshot...
+2018-06-13 13:49:42.556470 CST | [maml1_fbs20_mbs40_flr_0.1_mlr0.01] itr #4 | Saved
+2018-06-13 13:49:42.557269 CST | ----------------------  -----------
+2018-06-13 13:49:42.557378 CST | 0TotalExecTime            23.3397
+2018-06-13 13:49:42.557488 CST | 0TotalExecTime            23.538
+2018-06-13 13:49:42.557573 CST | 0AverageReturn          -326.639
+2018-06-13 13:49:42.557653 CST | 0ExplainedVariance         0.836556
+2018-06-13 13:49:42.557730 CST | 0NumTrajs               1077
+2018-06-13 13:49:42.557807 CST | 0StdReturn                63.5131
+2018-06-13 13:49:42.557884 CST | 0MaxReturn              -205.734
+2018-06-13 13:49:42.557959 CST | 0MinReturn              -435.125
+2018-06-13 13:49:42.558036 CST | ComputeUpdatedDistTime     1.0279
+2018-06-13 13:49:42.558112 CST | MeanKL                     0
+2018-06-13 13:49:42.558187 CST | LossBefore                 1.84165
+2018-06-13 13:49:42.558263 CST | LossAfter                  1.84165
+2018-06-13 13:49:42.558338 CST | dLoss                      0
+2018-06-13 13:49:42.558414 CST | Time                     262.678
+2018-06-13 13:49:42.558490 CST | ItrTime                   53.4792
+2018-06-13 13:49:42.558565 CST | ----------------------  -----------
+2018-06-13 13:49:42.558777 CST | [maml1_fbs20_mbs40_flr_0.1_mlr0.01] itr #4 | Saving visualization of paths
+2018-06-13 13:49:43.185376 CST | [maml1_fbs20_mbs40_flr_0.1_mlr0.01] itr #5 | Sampling set of tasks/goals for this meta-batch...
+2018-06-13 13:49:43.186425 CST | [maml1_fbs20_mbs40_flr_0.1_mlr0.01] itr #5 | ** Step 0 **
+2018-06-13 13:49:43.186635 CST | [maml1_fbs20_mbs40_flr_0.1_mlr0.01] itr #5 | Obtaining samples...
+2018-06-13 13:50:06.948028 CST | [maml1_fbs20_mbs40_flr_0.1_mlr0.01] itr #5 | Obtaining future samples...
+2018-06-13 13:50:30.701968 CST | [maml1_fbs20_mbs40_flr_0.1_mlr0.01] itr #5 | Processing samples...
+2018-06-13 13:50:32.395181 CST | [maml1_fbs20_mbs40_flr_0.1_mlr0.01] itr #5 | fitting baseline...
+2018-06-13 13:50:32.563077 CST | [maml1_fbs20_mbs40_flr_0.1_mlr0.01] itr #5 | fitted
+2018-06-13 13:50:32.849210 CST | [maml1_fbs20_mbs40_flr_0.1_mlr0.01] itr #5 | Computing policy updates...
+2018-06-13 13:50:34.157972 CST | [maml1_fbs20_mbs40_flr_0.1_mlr0.01] itr #5 | Optimizing policy...
+2018-06-13 13:50:34.158758 CST | [maml1_fbs20_mbs40_flr_0.1_mlr0.01] itr #5 | Computing loss before
+2018-06-13 13:50:34.669795 CST | [maml1_fbs20_mbs40_flr_0.1_mlr0.01] itr #5 | Optimizing
+2018-06-13 13:50:34.671508 CST | [maml1_fbs20_mbs40_flr_0.1_mlr0.01] itr #5 | Start CG optimization: #parameters: 172820, #inputs: 2700, #subsample_inputs: 2700
+2018-06-13 13:50:34.671645 CST | [maml1_fbs20_mbs40_flr_0.1_mlr0.01] itr #5 | computing loss before
+2018-06-13 13:50:34.808124 CST | [maml1_fbs20_mbs40_flr_0.1_mlr0.01] itr #5 | performing update
+2018-06-13 13:50:34.808285 CST | [maml1_fbs20_mbs40_flr_0.1_mlr0.01] itr #5 | computing gradient
+2018-06-13 13:50:35.079974 CST | [maml1_fbs20_mbs40_flr_0.1_mlr0.01] itr #5 | gradient computed
+2018-06-13 13:50:35.080192 CST | [maml1_fbs20_mbs40_flr_0.1_mlr0.01] itr #5 | computing descent direction
+2018-06-13 13:50:35.279263 CST | [maml1_fbs20_mbs40_flr_0.1_mlr0.01] itr #5 | descent direction computed
+2018-06-13 13:50:37.407367 CST | [maml1_fbs20_mbs40_flr_0.1_mlr0.01] itr #5 | Line search condition violated. Rejecting the step!
+2018-06-13 13:50:37.407547 CST | [maml1_fbs20_mbs40_flr_0.1_mlr0.01] itr #5 | Violated because loss not improving
+2018-06-13 13:50:37.410027 CST | [maml1_fbs20_mbs40_flr_0.1_mlr0.01] itr #5 | backtrack iters: 14
+2018-06-13 13:50:37.410171 CST | [maml1_fbs20_mbs40_flr_0.1_mlr0.01] itr #5 | computing loss after
+2018-06-13 13:50:37.410251 CST | [maml1_fbs20_mbs40_flr_0.1_mlr0.01] itr #5 | optimization finished
+2018-06-13 13:50:37.410331 CST | [maml1_fbs20_mbs40_flr_0.1_mlr0.01] itr #5 | Computing loss after
+2018-06-13 13:50:37.553970 CST | [maml1_fbs20_mbs40_flr_0.1_mlr0.01] itr #5 | Computing KL after
+2018-06-13 13:50:37.597932 CST | [maml1_fbs20_mbs40_flr_0.1_mlr0.01] itr #5 | Saving snapshot...
+2018-06-13 13:50:37.598119 CST | [maml1_fbs20_mbs40_flr_0.1_mlr0.01] itr #5 | Saved
+2018-06-13 13:50:37.598795 CST | ----------------------  -----------
+2018-06-13 13:50:37.598905 CST | 0TotalExecTime            23.7538
+2018-06-13 13:50:37.598983 CST | 0TotalExecTime            23.7452
+2018-06-13 13:50:37.599054 CST | 0AverageReturn          -320.028
+2018-06-13 13:50:37.599124 CST | 0ExplainedVariance         0.882478
+2018-06-13 13:50:37.599193 CST | 0NumTrajs               1076
+2018-06-13 13:50:37.599262 CST | 0StdReturn                51.2059
+2018-06-13 13:50:37.599330 CST | 0MaxReturn              -204.631
+2018-06-13 13:50:37.599398 CST | 0MinReturn              -427.446
+2018-06-13 13:50:37.599466 CST | ComputeUpdatedDistTime     1.30834
+2018-06-13 13:50:37.599534 CST | MeanKL                     0
+2018-06-13 13:50:37.599602 CST | LossBefore                 1.8379
+2018-06-13 13:50:37.599670 CST | LossAfter                  1.8379
+2018-06-13 13:50:37.599737 CST | dLoss                      0
+2018-06-13 13:50:37.599805 CST | Time                     317.719
+2018-06-13 13:50:37.599872 CST | ItrTime                   54.4129
+2018-06-13 13:50:37.599939 CST | ----------------------  -----------
+2018-06-13 13:50:37.600116 CST | [maml1_fbs20_mbs40_flr_0.1_mlr0.01] itr #6 | Sampling set of tasks/goals for this meta-batch...
+2018-06-13 13:50:37.600783 CST | [maml1_fbs20_mbs40_flr_0.1_mlr0.01] itr #6 | ** Step 0 **
+2018-06-13 13:50:37.600954 CST | [maml1_fbs20_mbs40_flr_0.1_mlr0.01] itr #6 | Obtaining samples...
+2018-06-13 13:51:01.636069 CST | [maml1_fbs20_mbs40_flr_0.1_mlr0.01] itr #6 | Obtaining future samples...
+2018-06-13 13:51:25.953218 CST | [maml1_fbs20_mbs40_flr_0.1_mlr0.01] itr #6 | Processing samples...
+2018-06-13 13:51:27.627566 CST | [maml1_fbs20_mbs40_flr_0.1_mlr0.01] itr #6 | fitting baseline...
+2018-06-13 13:51:27.787175 CST | [maml1_fbs20_mbs40_flr_0.1_mlr0.01] itr #6 | fitted
+2018-06-13 13:51:28.058280 CST | [maml1_fbs20_mbs40_flr_0.1_mlr0.01] itr #6 | Computing policy updates...
+2018-06-13 13:51:29.079004 CST | [maml1_fbs20_mbs40_flr_0.1_mlr0.01] itr #6 | Optimizing policy...
+2018-06-13 13:51:29.079787 CST | [maml1_fbs20_mbs40_flr_0.1_mlr0.01] itr #6 | Computing loss before
+2018-06-13 13:51:29.587253 CST | [maml1_fbs20_mbs40_flr_0.1_mlr0.01] itr #6 | Optimizing
+2018-06-13 13:51:29.588811 CST | [maml1_fbs20_mbs40_flr_0.1_mlr0.01] itr #6 | Start CG optimization: #parameters: 172820, #inputs: 2700, #subsample_inputs: 2700
+2018-06-13 13:51:29.588919 CST | [maml1_fbs20_mbs40_flr_0.1_mlr0.01] itr #6 | computing loss before
+2018-06-13 13:51:29.728505 CST | [maml1_fbs20_mbs40_flr_0.1_mlr0.01] itr #6 | performing update
+2018-06-13 13:51:29.728734 CST | [maml1_fbs20_mbs40_flr_0.1_mlr0.01] itr #6 | computing gradient
+2018-06-13 13:51:30.001073 CST | [maml1_fbs20_mbs40_flr_0.1_mlr0.01] itr #6 | gradient computed
+2018-06-13 13:51:30.001234 CST | [maml1_fbs20_mbs40_flr_0.1_mlr0.01] itr #6 | computing descent direction
+2018-06-13 13:51:30.202883 CST | [maml1_fbs20_mbs40_flr_0.1_mlr0.01] itr #6 | descent direction computed
+2018-06-13 13:51:32.355660 CST | [maml1_fbs20_mbs40_flr_0.1_mlr0.01] itr #6 | Line search condition violated. Rejecting the step!
+2018-06-13 13:51:32.355850 CST | [maml1_fbs20_mbs40_flr_0.1_mlr0.01] itr #6 | Violated because loss not improving
+2018-06-13 13:51:32.358265 CST | [maml1_fbs20_mbs40_flr_0.1_mlr0.01] itr #6 | backtrack iters: 14
+2018-06-13 13:51:32.358378 CST | [maml1_fbs20_mbs40_flr_0.1_mlr0.01] itr #6 | computing loss after
+2018-06-13 13:51:32.358458 CST | [maml1_fbs20_mbs40_flr_0.1_mlr0.01] itr #6 | optimization finished
+2018-06-13 13:51:32.358552 CST | [maml1_fbs20_mbs40_flr_0.1_mlr0.01] itr #6 | Computing loss after
+2018-06-13 13:51:32.498797 CST | [maml1_fbs20_mbs40_flr_0.1_mlr0.01] itr #6 | Computing KL after
+2018-06-13 13:51:32.544832 CST | [maml1_fbs20_mbs40_flr_0.1_mlr0.01] itr #6 | Saving snapshot...
+2018-06-13 13:51:32.545040 CST | [maml1_fbs20_mbs40_flr_0.1_mlr0.01] itr #6 | Saved
+2018-06-13 13:51:32.545821 CST | ----------------------  -----------
+2018-06-13 13:51:32.545926 CST | 0TotalExecTime            24.0283
+2018-06-13 13:51:32.546006 CST | 0TotalExecTime            24.3087
+2018-06-13 13:51:32.546080 CST | 0AverageReturn          -318.887
+2018-06-13 13:51:32.546151 CST | 0ExplainedVariance         0.868099
+2018-06-13 13:51:32.546221 CST | 0NumTrajs               1072
+2018-06-13 13:51:32.546292 CST | 0StdReturn                54.6353
+2018-06-13 13:51:32.546362 CST | 0MaxReturn              -207.679
+2018-06-13 13:51:32.546432 CST | 0MinReturn              -434.747
+2018-06-13 13:51:32.546501 CST | ComputeUpdatedDistTime     1.02027
+2018-06-13 13:51:32.546570 CST | MeanKL                     0
+2018-06-13 13:51:32.546640 CST | LossBefore                 1.83478
+2018-06-13 13:51:32.546708 CST | LossAfter                  1.83478
+2018-06-13 13:51:32.546777 CST | dLoss                      0
+2018-06-13 13:51:32.546846 CST | Time                     372.666
+2018-06-13 13:51:32.546915 CST | ItrTime                   54.945
+2018-06-13 13:51:32.546984 CST | ----------------------  -----------
+2018-06-13 13:51:32.547182 CST | [maml1_fbs20_mbs40_flr_0.1_mlr0.01] itr #6 | Saving visualization of paths
+2018-06-13 13:51:33.191650 CST | [maml1_fbs20_mbs40_flr_0.1_mlr0.01] itr #7 | Sampling set of tasks/goals for this meta-batch...
+2018-06-13 13:51:33.192753 CST | [maml1_fbs20_mbs40_flr_0.1_mlr0.01] itr #7 | ** Step 0 **
+2018-06-13 13:51:33.192921 CST | [maml1_fbs20_mbs40_flr_0.1_mlr0.01] itr #7 | Obtaining samples...
+2018-06-13 13:51:57.711629 CST | [maml1_fbs20_mbs40_flr_0.1_mlr0.01] itr #7 | Obtaining future samples...
+2018-06-13 13:52:22.095870 CST | [maml1_fbs20_mbs40_flr_0.1_mlr0.01] itr #7 | Processing samples...
+2018-06-13 13:52:23.818529 CST | [maml1_fbs20_mbs40_flr_0.1_mlr0.01] itr #7 | fitting baseline...
+2018-06-13 13:52:23.988606 CST | [maml1_fbs20_mbs40_flr_0.1_mlr0.01] itr #7 | fitted
+2018-06-13 13:52:24.270351 CST | [maml1_fbs20_mbs40_flr_0.1_mlr0.01] itr #7 | Computing policy updates...
+2018-06-13 13:52:25.282638 CST | [maml1_fbs20_mbs40_flr_0.1_mlr0.01] itr #7 | Optimizing policy...
+2018-06-13 13:52:25.283411 CST | [maml1_fbs20_mbs40_flr_0.1_mlr0.01] itr #7 | Computing loss before
+2018-06-13 13:52:25.815208 CST | [maml1_fbs20_mbs40_flr_0.1_mlr0.01] itr #7 | Optimizing
+2018-06-13 13:52:25.816746 CST | [maml1_fbs20_mbs40_flr_0.1_mlr0.01] itr #7 | Start CG optimization: #parameters: 172820, #inputs: 2600, #subsample_inputs: 2600
+2018-06-13 13:52:25.816846 CST | [maml1_fbs20_mbs40_flr_0.1_mlr0.01] itr #7 | computing loss before
+2018-06-13 13:52:25.948909 CST | [maml1_fbs20_mbs40_flr_0.1_mlr0.01] itr #7 | performing update
+2018-06-13 13:52:25.949117 CST | [maml1_fbs20_mbs40_flr_0.1_mlr0.01] itr #7 | computing gradient
+2018-06-13 13:52:26.209844 CST | [maml1_fbs20_mbs40_flr_0.1_mlr0.01] itr #7 | gradient computed
+2018-06-13 13:52:26.210047 CST | [maml1_fbs20_mbs40_flr_0.1_mlr0.01] itr #7 | computing descent direction
+2018-06-13 13:52:26.403091 CST | [maml1_fbs20_mbs40_flr_0.1_mlr0.01] itr #7 | descent direction computed
+2018-06-13 13:52:28.469315 CST | [maml1_fbs20_mbs40_flr_0.1_mlr0.01] itr #7 | Line search condition violated. Rejecting the step!
+2018-06-13 13:52:28.469516 CST | [maml1_fbs20_mbs40_flr_0.1_mlr0.01] itr #7 | Violated because loss not improving
+2018-06-13 13:52:28.472077 CST | [maml1_fbs20_mbs40_flr_0.1_mlr0.01] itr #7 | backtrack iters: 14
+2018-06-13 13:52:28.472198 CST | [maml1_fbs20_mbs40_flr_0.1_mlr0.01] itr #7 | computing loss after
+2018-06-13 13:52:28.472281 CST | [maml1_fbs20_mbs40_flr_0.1_mlr0.01] itr #7 | optimization finished
+2018-06-13 13:52:28.472364 CST | [maml1_fbs20_mbs40_flr_0.1_mlr0.01] itr #7 | Computing loss after
+2018-06-13 13:52:28.612158 CST | [maml1_fbs20_mbs40_flr_0.1_mlr0.01] itr #7 | Computing KL after
+2018-06-13 13:52:28.655618 CST | [maml1_fbs20_mbs40_flr_0.1_mlr0.01] itr #7 | Saving snapshot...
+2018-06-13 13:52:28.655812 CST | [maml1_fbs20_mbs40_flr_0.1_mlr0.01] itr #7 | Saved
+2018-06-13 13:52:28.656552 CST | ----------------------  -----------
+2018-06-13 13:52:28.656651 CST | 0TotalExecTime            24.5109
+2018-06-13 13:52:28.656728 CST | 0TotalExecTime            24.3757
+2018-06-13 13:52:28.656800 CST | 0AverageReturn          -312.388
+2018-06-13 13:52:28.656869 CST | 0ExplainedVariance         0.854866
+2018-06-13 13:52:28.656937 CST | 0NumTrajs               1077
+2018-06-13 13:52:28.657004 CST | 0StdReturn                57.138
+2018-06-13 13:52:28.657071 CST | 0MaxReturn              -206.839
+2018-06-13 13:52:28.657137 CST | 0MinReturn              -430.738
+2018-06-13 13:52:28.657203 CST | ComputeUpdatedDistTime     1.01193
+2018-06-13 13:52:28.657269 CST | MeanKL                     0
+2018-06-13 13:52:28.657335 CST | LossBefore                 1.83207
+2018-06-13 13:52:28.657402 CST | LossAfter                  1.83207
+2018-06-13 13:52:28.657467 CST | dLoss                      0
+2018-06-13 13:52:28.657547 CST | Time                     428.777
+2018-06-13 13:52:28.657613 CST | ItrTime                   55.4643
+2018-06-13 13:52:28.657680 CST | ----------------------  -----------
+2018-06-13 13:52:28.657907 CST | [maml1_fbs20_mbs40_flr_0.1_mlr0.01] itr #8 | Sampling set of tasks/goals for this meta-batch...
+2018-06-13 13:52:28.658646 CST | [maml1_fbs20_mbs40_flr_0.1_mlr0.01] itr #8 | ** Step 0 **
+2018-06-13 13:52:28.658799 CST | [maml1_fbs20_mbs40_flr_0.1_mlr0.01] itr #8 | Obtaining samples...
+2018-06-13 13:52:53.279424 CST | [maml1_fbs20_mbs40_flr_0.1_mlr0.01] itr #8 | Obtaining future samples...
+2018-06-13 13:53:18.615222 CST | [maml1_fbs20_mbs40_flr_0.1_mlr0.01] itr #8 | Processing samples...
+2018-06-13 13:53:21.365731 CST | [maml1_fbs20_mbs40_flr_0.1_mlr0.01] itr #8 | fitting baseline...
+2018-06-13 13:53:21.528406 CST | [maml1_fbs20_mbs40_flr_0.1_mlr0.01] itr #8 | fitted
+2018-06-13 13:53:21.844076 CST | [maml1_fbs20_mbs40_flr_0.1_mlr0.01] itr #8 | Computing policy updates...
+2018-06-13 13:53:22.910295 CST | [maml1_fbs20_mbs40_flr_0.1_mlr0.01] itr #8 | Optimizing policy...
+2018-06-13 13:53:22.911080 CST | [maml1_fbs20_mbs40_flr_0.1_mlr0.01] itr #8 | Computing loss before
+2018-06-13 13:53:23.491818 CST | [maml1_fbs20_mbs40_flr_0.1_mlr0.01] itr #8 | Optimizing
+2018-06-13 13:53:23.493635 CST | [maml1_fbs20_mbs40_flr_0.1_mlr0.01] itr #8 | Start CG optimization: #parameters: 172820, #inputs: 2700, #subsample_inputs: 2700
+2018-06-13 13:53:23.493754 CST | [maml1_fbs20_mbs40_flr_0.1_mlr0.01] itr #8 | computing loss before
+2018-06-13 13:53:23.637774 CST | [maml1_fbs20_mbs40_flr_0.1_mlr0.01] itr #8 | performing update
+2018-06-13 13:53:23.637956 CST | [maml1_fbs20_mbs40_flr_0.1_mlr0.01] itr #8 | computing gradient
+2018-06-13 13:53:23.909586 CST | [maml1_fbs20_mbs40_flr_0.1_mlr0.01] itr #8 | gradient computed
+2018-06-13 13:53:23.909814 CST | [maml1_fbs20_mbs40_flr_0.1_mlr0.01] itr #8 | computing descent direction
+2018-06-13 13:53:24.120409 CST | [maml1_fbs20_mbs40_flr_0.1_mlr0.01] itr #8 | descent direction computed
+2018-06-13 13:53:26.425407 CST | [maml1_fbs20_mbs40_flr_0.1_mlr0.01] itr #8 | Line search condition violated. Rejecting the step!
+2018-06-13 13:53:26.425803 CST | [maml1_fbs20_mbs40_flr_0.1_mlr0.01] itr #8 | Violated because loss not improving
+2018-06-13 13:53:26.430761 CST | [maml1_fbs20_mbs40_flr_0.1_mlr0.01] itr #8 | backtrack iters: 14
+2018-06-13 13:53:26.430973 CST | [maml1_fbs20_mbs40_flr_0.1_mlr0.01] itr #8 | computing loss after
+2018-06-13 13:53:26.431089 CST | [maml1_fbs20_mbs40_flr_0.1_mlr0.01] itr #8 | optimization finished
+2018-06-13 13:53:26.431247 CST | [maml1_fbs20_mbs40_flr_0.1_mlr0.01] itr #8 | Computing loss after
+2018-06-13 13:53:26.588604 CST | [maml1_fbs20_mbs40_flr_0.1_mlr0.01] itr #8 | Computing KL after
+2018-06-13 13:53:26.673488 CST | [maml1_fbs20_mbs40_flr_0.1_mlr0.01] itr #8 | Saving snapshot...
+2018-06-13 13:53:26.673837 CST | [maml1_fbs20_mbs40_flr_0.1_mlr0.01] itr #8 | Saved
+2018-06-13 13:53:26.675610 CST | ----------------------  ----------
+2018-06-13 13:53:26.675835 CST | 0TotalExecTime            24.6135
+2018-06-13 13:53:26.676016 CST | 0TotalExecTime            25.3221
+2018-06-13 13:53:26.676188 CST | 0AverageReturn          -309.03
+2018-06-13 13:53:26.676356 CST | 0ExplainedVariance         0.84475
+2018-06-13 13:53:26.676524 CST | 0NumTrajs               1076
+2018-06-13 13:53:26.676698 CST | 0StdReturn                58.0721
+2018-06-13 13:53:26.676864 CST | 0MaxReturn              -205.435
+2018-06-13 13:53:26.677035 CST | 0MinReturn              -445.079
+2018-06-13 13:53:26.677202 CST | ComputeUpdatedDistTime     1.06573
+2018-06-13 13:53:26.677367 CST | MeanKL                     0
+2018-06-13 13:53:26.677548 CST | LossBefore                 1.83139
+2018-06-13 13:53:26.677715 CST | LossAfter                  1.83139
+2018-06-13 13:53:26.677882 CST | dLoss                      0
+2018-06-13 13:53:26.678047 CST | Time                     486.795
+2018-06-13 13:53:26.678209 CST | ItrTime                   58.0162
+2018-06-13 13:53:26.678371 CST | ----------------------  ----------
+2018-06-13 13:53:26.678905 CST | [maml1_fbs20_mbs40_flr_0.1_mlr0.01] itr #8 | Saving visualization of paths
+2018-06-13 13:53:27.404918 CST | [maml1_fbs20_mbs40_flr_0.1_mlr0.01] itr #9 | Sampling set of tasks/goals for this meta-batch...
+2018-06-13 13:53:27.410622 CST | [maml1_fbs20_mbs40_flr_0.1_mlr0.01] itr #9 | ** Step 0 **
+2018-06-13 13:53:27.410820 CST | [maml1_fbs20_mbs40_flr_0.1_mlr0.01] itr #9 | Obtaining samples...
+2018-06-13 13:53:53.675373 CST | [maml1_fbs20_mbs40_flr_0.1_mlr0.01] itr #9 | Obtaining future samples...
+2018-06-13 14:17:54.168017 CST | [maml1_fbs20_mbs40_flr_0.1_mlr0.01] Populating workers...
+2018-06-13 14:18:03.984374 CST | [maml1_fbs20_mbs40_flr_0.1_mlr0.01] Populated
+2018-06-13 14:18:04.014053 CST | [maml1_fbs20_mbs40_flr_0.1_mlr0.01] itr #0 | Sampling set of tasks/goals for this meta-batch...
+2018-06-13 14:18:04.014372 CST | [maml1_fbs20_mbs40_flr_0.1_mlr0.01] itr #0 | ** Step 0 **
+2018-06-13 14:18:04.014464 CST | [maml1_fbs20_mbs40_flr_0.1_mlr0.01] itr #0 | Obtaining samples...
+2018-06-13 14:18:20.953278 CST | [maml1_fbs20_mbs40_flr_0.1_mlr0.01] itr #0 | Obtaining future samples...
+2018-06-13 14:18:40.026282 CST | [maml1_fbs20_mbs40_flr_0.1_mlr0.01] itr #0 | Processing samples...
+2018-06-13 14:18:41.126243 CST | [maml1_fbs20_mbs40_flr_0.1_mlr0.01] itr #0 | fitting baseline...
+2018-06-13 14:18:41.258190 CST | [maml1_fbs20_mbs40_flr_0.1_mlr0.01] itr #0 | fitted
+2018-06-13 14:18:41.514177 CST | [maml1_fbs20_mbs40_flr_0.1_mlr0.01] itr #0 | Computing policy updates...
+2018-06-13 14:18:52.081136 CST | [maml1_fbs20_mbs40_flr_0.1_mlr0.01] itr #0 | Optimizing policy...
+2018-06-13 14:18:52.081404 CST | [maml1_fbs20_mbs40_flr_0.1_mlr0.01] itr #0 | Computing loss before
+2018-06-13 14:20:54.222383 CST | [maml1_fbs20_mbs40_flr_0.1_mlr0.01] Populating workers...
+2018-06-14 10:20:19.394703 CST | [maml1_fbs20_mbs40_flr_0.1_mlr0.01] Populating workers...
+2018-06-14 10:20:30.720451 CST | [maml1_fbs20_mbs40_flr_0.1_mlr0.01] Populated
+2018-06-14 10:20:30.751624 CST | [maml1_fbs20_mbs40_flr_0.1_mlr0.01] itr #0 | Sampling set of tasks/goals for this meta-batch...
+2018-06-14 10:20:30.751947 CST | [maml1_fbs20_mbs40_flr_0.1_mlr0.01] itr #0 | ** Step 0 **
+2018-06-14 10:20:30.752044 CST | [maml1_fbs20_mbs40_flr_0.1_mlr0.01] itr #0 | Obtaining samples...
+2018-06-14 10:20:50.625745 CST | [maml1_fbs20_mbs40_flr_0.1_mlr0.01] itr #0 | Processing samples...
+2018-06-14 10:20:51.254194 CST | [maml1_fbs20_mbs40_flr_0.1_mlr0.01] itr #0 | fitting baseline...
+2018-06-14 10:20:51.383428 CST | [maml1_fbs20_mbs40_flr_0.1_mlr0.01] itr #0 | fitted
+2018-06-14 10:20:51.662512 CST | [maml1_fbs20_mbs40_flr_0.1_mlr0.01] itr #0 | Computing policy updates...
+2018-06-14 10:21:11.309813 CST | [maml1_fbs20_mbs40_flr_0.1_mlr0.01] itr #0 | ** Step 1 **
+2018-06-14 10:21:11.309962 CST | [maml1_fbs20_mbs40_flr_0.1_mlr0.01] itr #0 | Obtaining samples...
+2018-06-14 10:21:32.553941 CST | [maml1_fbs20_mbs40_flr_0.1_mlr0.01] itr #0 | Processing samples...
+2018-06-14 10:21:33.181728 CST | [maml1_fbs20_mbs40_flr_0.1_mlr0.01] itr #0 | fitting baseline...
+2018-06-14 10:21:33.361021 CST | [maml1_fbs20_mbs40_flr_0.1_mlr0.01] itr #0 | fitted
+2018-06-14 10:21:33.649114 CST | [maml1_fbs20_mbs40_flr_0.1_mlr0.01] itr #0 | Optimizing policy...
+2018-06-14 10:21:33.649791 CST | [maml1_fbs20_mbs40_flr_0.1_mlr0.01] itr #0 | Computing loss before
+2018-06-14 10:21:36.645639 CST | [maml1_fbs20_mbs40_flr_0.1_mlr0.01] itr #0 | Optimizing
+2018-06-14 10:21:36.647257 CST | [maml1_fbs20_mbs40_flr_0.1_mlr0.01] itr #0 | Start CG optimization: #parameters: 172820, #inputs: 2700, #subsample_inputs: 2700
+2018-06-14 10:21:36.647363 CST | [maml1_fbs20_mbs40_flr_0.1_mlr0.01] itr #0 | computing loss before
+2018-06-14 10:21:37.088266 CST | [maml1_fbs20_mbs40_flr_0.1_mlr0.01] itr #0 | performing update
+2018-06-14 10:21:37.088552 CST | [maml1_fbs20_mbs40_flr_0.1_mlr0.01] itr #0 | computing gradient

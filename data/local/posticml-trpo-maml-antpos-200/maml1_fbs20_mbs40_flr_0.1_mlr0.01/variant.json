@@ -1,0 +1,10 @@
+{
+  "_hidden_keys": [],
+  "exp_name": "maml1_fbs20_mbs40_flr_0.1_mlr0.01",
+  "fast_batch_size": 20,
+  "fast_lr": 0.1,
+  "meta_batch_size": 40,
+  "meta_step_size": 0.01,
+  "seed": 1,
+  "task_var": 2
+}

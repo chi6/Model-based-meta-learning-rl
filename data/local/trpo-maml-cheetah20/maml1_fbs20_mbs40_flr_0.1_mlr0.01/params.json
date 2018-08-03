@@ -1,0 +1,78 @@
+{
+  "args_data": "gANjcmxsYWIubWlzYy5pbnN0cnVtZW50ClN0dWJNZXRob2RDYWxsCnEAKYFxAX1xAihYCAAAAF9fa3dhcmdzcQN9cQRYBgAAAF9fYXJnc3EFKGNybGxhYi5taXNjLmluc3RydW1lbnQKU3R1Yk9iamVjdApxBimBcQd9cQgoWAsAAABwcm94eV9jbGFzc3EJY3NhbmRib3gucm9ja3kudGYuYWxnb3MubWFtbF90cnBvCk1BTUxUUlBPCnEKWAYAAABrd2FyZ3NxC31xDChYEAAAAG51bV9ncmFkX3VwZGF0ZXNxDUsBWAgAAAB1c2VfbWFtbHEOiFgJAAAAc3RlcF9zaXplcQ9HP4R64UeuFHtYAwAAAGVudnEQaAYpgXERfXESKGgJY3NhbmRib3gucm9ja3kudGYuZW52cy5iYXNlClRmRW52CnETaAt9cRRYCwAAAHdyYXBwZWRfZW52cRVoBimBcRZ9cRcoaAljcmxsYWIuZW52cy5ub3JtYWxpemVkX2VudgpOb3JtYWxpemVkRW52CnEYaAt9cRloEGgGKYFxGn1xGyhoCWNybGxhYi5lbnZzLm11am9jby5oYWxmX2NoZWV0YWhfZW52X3JhbmQKSGFsZkNoZWV0YWhFbnZSYW5kCnEcaAt9cR1YBAAAAGFyZ3NxHil1YnNoHil1YnNoHil1YlgGAAAAcG9saWN5cR9oBimBcSB9cSEoaAljc2FuZGJveC5yb2NreS50Zi5wb2xpY2llcy5tYW1sX21pbmltYWxfZ2F1c3NfbWxwX3BvbGljeQpNQU1MR2F1c3NpYW5NTFBQb2xpY3kKcSJoC31xIyhYDAAAAGhpZGRlbl9zaXplc3EkTQABTQABTQABh3ElWAQAAABuYW1lcSZoH1gOAAAAZ3JhZF9zdGVwX3NpemVxJ0c/uZmZmZmZmlgTAAAAaGlkZGVuX25vbmxpbmVhcml0eXEoY3RlbnNvcmZsb3cucHl0aG9uLm9wcy5nZW5fbm5fb3BzCnJlbHUKcSlYCAAAAGVudl9zcGVjcSpjcmxsYWIubWlzYy5pbnN0cnVtZW50ClN0dWJBdHRyCnErKYFxLH1xLShYCgAAAF9hdHRyX25hbWVxLlgEAAAAc3BlY3EvWAQAAABfb2JqcTBoEXVidWgeKXViWAQAAABwbG90cTGJWAgAAABiYXNlbGluZXEyaAYpgXEzfXE0KGgJY3JsbGFiLmJhc2VsaW5lcy5saW5lYXJfZmVhdHVyZV9iYXNlbGluZQpMaW5lYXJGZWF0dXJlQmFzZWxpbmUKcTVoC31xNmgqaCspgXE3fXE4KGguaC9oMGgRdWJzaB4pdWJYDwAAAG1ldGFfYmF0Y2hfc2l6ZXE5SyhYBQAAAG5faXRycTpNIANYDwAAAG1heF9wYXRoX2xlbmd0aHE7SxRYCgAAAGJhdGNoX3NpemVxPEsUdWgeKXViWAUAAAB0cmFpbnE9KX1xPnRxP3ViLg==",
+  "exp_name": "maml1_fbs20_mbs40_flr_0.1_mlr0.01",
+  "json_args": {
+    "algo": {
+      "_name": "sandbox.rocky.tf.algos.maml_trpo.MAMLTRPO",
+      "batch_size": 20,
+      "max_path_length": 20,
+      "meta_batch_size": 40,
+      "n_itr": 800,
+      "num_grad_updates": 1,
+      "plot": false,
+      "step_size": 0.01,
+      "use_maml": true
+    },
+    "baseline": {
+      "_name": "rllab.baselines.linear_feature_baseline.LinearFeatureBaseline",
+      "env_spec": {
+        "attr": "spec",
+        "obj": {
+          "_name": "sandbox.rocky.tf.envs.base.TfEnv",
+          "wrapped_env": {
+            "_name": "rllab.envs.normalized_env.NormalizedEnv",
+            "env": {
+              "_name": "rllab.envs.mujoco.half_cheetah_env_rand.HalfCheetahEnvRand"
+            }
+          }
+        }
+      }
+    },
+    "env": {
+      "_name": "sandbox.rocky.tf.envs.base.TfEnv",
+      "wrapped_env": {
+        "_name": "rllab.envs.normalized_env.NormalizedEnv",
+        "env": {
+          "_name": "rllab.envs.mujoco.half_cheetah_env_rand.HalfCheetahEnvRand"
+        }
+      }
+    },
+    "policy": {
+      "_name": "sandbox.rocky.tf.policies.maml_minimal_gauss_mlp_policy.MAMLGaussianMLPPolicy",
+      "env_spec": {
+        "attr": "spec",
+        "obj": {
+          "_name": "sandbox.rocky.tf.envs.base.TfEnv",
+          "wrapped_env": {
+            "_name": "rllab.envs.normalized_env.NormalizedEnv",
+            "env": {
+              "_name": "rllab.envs.mujoco.half_cheetah_env_rand.HalfCheetahEnvRand"
+            }
+          }
+        }
+      },
+      "grad_step_size": 0.1,
+      "hidden_nonlinearity": "tensorflow.python.ops.gen_nn_ops.relu",
+      "hidden_sizes": [
+        256,
+        256,
+        256
+      ],
+      "name": "policy"
+    }
+  },
+  "log_dir": "/home/chizhang/Documents/learning_to_adapt_rllab/data/local/trpo-maml-cheetah20/maml1_fbs20_mbs40_flr_0.1_mlr0.01",
+  "log_tabular_only": false,
+  "n_parallel": 8,
+  "params_log_file": "params.json",
+  "plot": false,
+  "resume_from": null,
+  "seed": 1,
+  "snapshot_gap": 25,
+  "snapshot_mode": "gap",
+  "tabular_log_file": "progress.csv",
+  "text_log_file": "debug.log",
+  "use_cloudpickle": false,
+  "variant_data": "gANjcmxsYWIubWlzYy5pbnN0cnVtZW50ClZhcmlhbnREaWN0CnEAKYFxAShYBwAAAGZhc3RfbHJxAkc/uZmZmZmZmlgIAAAAZXhwX25hbWVxA1ghAAAAbWFtbDFfZmJzMjBfbWJzNDBfZmxyXzAuMV9tbHIwLjAxcQRYBQAAAGRpcmVjcQWJWAwAAABfaGlkZGVuX2tleXNxBl1xB1gPAAAAbWV0YV9iYXRjaF9zaXplcQhLKFgOAAAAbWV0YV9zdGVwX3NpemVxCUc/hHrhR64Ue1gPAAAAZmFzdF9iYXRjaF9zaXplcQpLFFgEAAAAc2VlZHELSwF1aAFiLg==",
+  "variant_log_file": "variant.json"
+}
